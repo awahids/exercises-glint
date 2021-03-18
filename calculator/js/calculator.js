@@ -38,7 +38,7 @@ for( var i=0;i<operator.length;i++){
             output=reverseNumberFormat(getOutput()).toString();
             if(output){//if output has a value
                 output= output.substr(0,output.length-1);
-            printOutput(output);
+                printOutput(output);
             }
         }
         else{
