@@ -1,0 +1,166 @@
+:root {
+    /* light color */
+    --color-navbar-ft: #008057;
+    --color-bg-contact: #54ad91;
+    --bg-foto: #39d1a1;
+    --color-body: #ebe5e5;
+    --color-btn: #b4cb1a;
+    --color-text: #050505;
+    --color-text-2: #61b305;
+    --color-bg: #9ad255;
+    --icon-dark-mode :#ffdd00;
+    --color-down : #ffd700;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-dark {
+    background-color: var(--color-navbar-ft) !important;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.menu {
+    transition: width 2s, height 2s;
+}
+
+.menu:hover {
+    transform: rotate(180deg);
+}
+
+.home {
+    padding: 10em 0 10em 0;
+    background-image: url(../asset/img/cover2.png);
+    background-size: contain;
+}
+
+.fp-home {
+    background-color: var(--color-btn);
+    width: 220px;
+}
+
+.title-home {
+    padding-top: 0.5em;
+    font-size: 30px;
+    position: relative;
+    animation-name: name;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes name {
+    from {left: 150px;}
+    to {left: 0;}
+}
+
+.desc-home {
+    font-size: 14px;
+    position: relative;
+    animation-name: desc;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes desc {
+    from {right: 80px;}
+    to {right: 0;}
+}
+
+.btn-more {
+    color: var(--color-down);
+    font-size: 2em;
+    text-align: center;
+    opacity: 50%;
+}
+  
+.btn-more:hover {
+    opacity: 75%;
+    font-weight: bold;
+}
+
+#about, #edExp, #contact {
+    padding: 1rem;
+    background-color: var(--color-body);
+}
+
+.title-about, .title-edExp {
+    color: var(--color-bg-contact);
+}
+
+.mail {
+    color: var(--bg-foto);
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.desc-about {
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+.about-icon, .edExp-icon{
+    font-size: 7rem;
+    color: var(--color-bg-contact);
+}
+
+.nav-link {
+    color: var(--bg-foto);
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.desc-edExp {
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+.item-edExp {
+    border-bottom: 1px solid var(--color-text);
+    color: var(--color-text);
+}
+
+h3 {
+    color: var(--color-text-2);
+}
+
+.btn-submit {
+    background-color: var(--bg-foto);
+    width: 150px;
+    opacity: 75%;
+    font-size: 20px;
+}
+
+.btn-submit:hover {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.close:hover {
+    transform: rotate(180deg);
+}
+
+footer{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.jumbotron {
+    background-color: var(--color-navbar-ft);
+    color: var(--color-text-2);
+}
+
+.media-social {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-right: var(--mb-2);
+}

@@ -1,0 +1,64 @@
+/* Small devices (landscape phones, 576px and down) */
+@media all and  (min-width: 576px) {
+    body .change-theme{
+        right: 5rem;
+        top: 1.3rem;
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: inherit;
+    }
+
+    .home {
+        padding: 10em 0 10em 0;
+    }
+
+    .title-home {
+        padding-top: 0.8em;
+        font-size: 40px;
+    }
+
+    .btn-more {
+        font-size: 3em;
+    }
+
+    .fp-home {
+        width: 300px;
+    }
+
+    #about, #edExp {
+        padding: 4rem;
+    }
+
+    .about-icon {
+        font-size: 10rem;
+    }
+
+    .title-about {
+        font-size: 60px;
+    }
+
+    .desc-about{
+        text-align: none !important;
+        font-size: 22px;
+        padding: 2rem;
+    }
+
+    .item-edExp {
+        border-bottom: none;
+    }
+
+    .input-group {
+        width: 700px;
+    }
+
+    .mail {
+        font-size: 50px;
+    }
+
+    .btn-submit {
+        width: 300px;
+    }
+}

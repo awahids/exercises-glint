@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./asset/img/logo keepo.png" type="image/x-icon">
+    <!-- box icon -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-alert.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/dark-mode.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    
+    <title>My Portofolio</title>
+</head>
+<body>
+    <!-- dark mode -->
+    <!-- <a class="btn">
+        <i class='bx bx-moon change-theme' id="theme-button"></i>
+    </a> -->
+    <!-- end dark mode -->
+    
+    <!-- header -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portofolio</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-nav text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class='bx bx-caret-down menu'></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#edExp">Ed & Exp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Extra</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./calculator/calculator.html">Calculator</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <i class='bx bx-moon change-theme' id="theme-button"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main>
+        <!-- home -->
+        <section class="home text-center" id="home">
+            <div class="container text-white">
+                <img class="fp-home rounded-circle" src="./asset/img/fp.png" alt="">
+                <h1 class="title-home text-uppercase">A Wahid Safhadi</h1>
+                <p class="desc-home">Illustrator - Phonegraphy - Freelance</p>
+            </div>
+            <div class="text-center">
+                <a href="#about" class="btn"><i class='bx bx-down-arrow btn-more'></i></a>
+            </div>
+        </section>
+        <!-- end home -->
+
+        <!-- about -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-6 col-lg-4 text-center">
+                        <h1 class="title-about">
+                            <i class='bx bx-user about-icon'></i>
+                            <br>
+                            About Me
+                        </h1>
+                    </div>
+                    <div class="col-sm-9 col-md-6 col-lg-8">
+                        <p class="desc-about">I am someone who is very interested in the world of Graphic Design, Cinematography / Videography, photography and the development of several Web-based information applications. Therefore I am very happy to implement and share what I already know and have with others, so that it is very useful, especially in the world of education, which I have also been working on for several years</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about -->
+
+        <!-- ed & exp -->
+        <section class="ed-exp" id="edExp">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-sm-3 col-md-6 col-lg-4 text-center">
+                        <h1 class="title-edExp">
+                            <i class='bx bxs-book-open edExp-icon'></i>
+                            <br>
+                            Education & Experiences
+                        </h1>
+                    </div>
+                    <div class="col-sm-9 col-md-6 col-lg-8">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active">
+                                <a class="nav-link active shadow" data-toggle="tab" href="#smp">Junior Hight School</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shadow" data-toggle="tab" href="#sma">Senior Hight School</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shadow" data-toggle="tab" href="#univ">College</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shadow" data-toggle="tab" href="#exp">Experiences</a>
+                            </li>
+                        </ul>
+                    
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="smp" class="container tab-pane active text-center"><br>
+                                <h3>Junior High School 2 West Alas</h3>
+                                <p class="desc-edExp">
+                                    <i class='bx bx-list-check'>
+                                        ---
+                                    </i>
+                                    <br>
+                                    <i class='bx bx-calendar-check'>
+                                        2008-2011
+                                    </i>
+                                </p>
+                            </div>
+                            <div id="sma" class="container tab-pane fade text-center"><br>
+                                <h3>Senior High School 2 Sumbawa</h3>
+                                <p class="desc-edExp">
+                                    <i class='bx bx-list-check'>
+                                        Science Major
+                                    </i>
+                                    <br>
+                                    <i class='bx bx-calendar-check'>
+                                        2011-2014
+                                    </i>
+                                </p>
+                            </div>
+                            <div id="univ" class="container tab-pane fade text-center"><br>
+                                <h3>Mataram University</h3>
+                                <p class="desc-edExp">
+                                    <i class='bx bx-list-check'>
+                                        Informatics Engineering
+                                    </i>
+                                    <br>
+                                    <i class='bx bx-calendar-check'>
+                                        2014-Now
+                                    </i>
+                                </p>
+                            </div>
+                            <div id="exp" class="container tab-pane fade"><br>
+                                <h3 class="text-center">My Experiences</h3>
+                                <p class="desc-edExp">
+                                    <ul class="nav">
+                                        <li class="item-edExp">
+                                            <i class='bx bx-task'>
+                                                Enumerator 
+                                            </i>
+                                            <br>
+                                            <i class='bx bx-building'>
+                                                Save The Children (STC) Indonesia
+                                            </i>
+                                            <br>
+                                            <i class='bx bx-calendar-check'>
+                                                2021
+                                            </i>
+                                        </li>
+                                        <li class="item-edExp">
+                                            <i class='bx bx-task'>
+                                                IT Support 
+                                            </i>
+                                            <br>
+                                            <i class='bx bx-building'>
+                                                PT. Air Minum Giri Menang (Persero)
+                                            </i>
+                                            <br>
+                                            <i class='bx bx-calendar-check'>
+                                                2018
+                                            </i>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end ed & exp -->
+
+        <!-- contact -->
+        <section class="contact-form text-center" id="contact">
+            <div class="container mt-3">
+                <i class='bx bx-mail-send mail'>  Contact Us</i>
+                <form action="#" class="justify-content-center">
+                    <div class="input-group mb-3  mx-auto">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username" id="usr" name="username">
+                    </div>
+              
+                    <div class="input-group mb-3  mx-auto">
+                        <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email">
+                    <div class="input-group-append">
+                        <span class="input-group-text">@glints.com</span>
+                    </div>
+                    </div>
+                    <div class="input-group mb-3  mx-auto">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" id="comment" name="text"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit btn-xl" data-toggle="modal" data-target="#myModal">Submit</button>
+                </form>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Alert!!!</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        error 404
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+    </main>
+    <!-- end main -->
+
+    <!--footer-->
+    <footer class="jumbotron text-center" style="margin-bottom: 0; border-radius: 0;">
+        <p>Copyright &copy; A Wahid Safhadi 2021</p>
+        <div>
+            <a href="https://www.linkedin.com/in/awahids/" class="media-social"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/awahids" class="media-social"><i class='bx bxl-github'></i></i></a>
+            <a href="https://instagram.com/awdhs_" class="media-social"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/keepoinaja" class="media-social"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+    <!-- js dark mode -->
+    <script src="./js/dark-mode.js"></script>
+</body>
+</html>
