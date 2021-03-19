@@ -22,7 +22,7 @@ html {
 }
 
 .navbar-brand {
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .menu {
@@ -148,12 +148,6 @@ h3 {
     transform: rotate(180deg);
 }
 
-footer{
-    width: 100%;
-    left: 0;
-    bottom: 0;
-}
-
 .jumbotron {
     background-color: var(--color-navbar-ft);
     color: var(--color-text-2);
@@ -162,5 +156,4 @@ footer{
 .media-social {
     font-size: 1.5rem;
     color: var(--color-text);
-    margin-right: var(--mb-2);
 }
