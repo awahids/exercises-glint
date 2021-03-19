@@ -7,7 +7,7 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./asset/img/logo keepo.png" type="image/x-icon">
     <!-- box icon -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -21,13 +21,7 @@
     
     <title>My Portofolio</title>
 </head>
-<body>
-    <!-- dark mode -->
-    <!-- <a class="btn">
-        <i class='bx bx-moon change-theme' id="theme-button"></i>
-    </a> -->
-    <!-- end dark mode -->
-    
+<body>    
     <!-- header -->
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
@@ -211,17 +205,16 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">@</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Username" id="usr" name="username">
+                        <input type="text" class="form-control" placeholder="Username" id="usr" name="username" required>
                     </div>
-              
                     <div class="input-group mb-3  mx-auto">
-                        <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email">
+                        <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email" required>
                     <div class="input-group-append">
                         <span class="input-group-text">@glints.com</span>
                     </div>
                     </div>
                     <div class="input-group mb-3  mx-auto">
-                        <textarea class="form-control" rows="5" placeholder="Your Message" id="comment" name="text"></textarea>
+                        <textarea class="form-control" rows="5" placeholder="Your Message" id="comment" name="text" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-submit btn-xl" data-toggle="modal" data-target="#myModal">Submit</button>
                 </form>
@@ -230,7 +223,6 @@
             <div class="modal fade" id="myModal">
                 <div class="modal-dialog">
                 <div class="modal-content">
-                
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Alert!!!</h4>
@@ -253,7 +245,7 @@
         <p>Copyright &copy; A Wahid Safhadi 2021</p>
         <div>
             <a href="https://www.linkedin.com/in/awahids/" class="media-social"><i class='bx bxl-linkedin-square'></i></a>
-            <a href="https://github.com/awahids" class="media-social"><i class='bx bxl-github'></i></i></a>
+            <a href="https://github.com/awahids" class="media-social"><i class='bx bxl-github'></i></a>
             <a href="https://instagram.com/awdhs_" class="media-social"><i class='bx bxl-instagram'></i></a>
             <a href="https://twitter.com/keepoinaja" class="media-social"><i class='bx bxl-twitter'></i></a>
         </div>

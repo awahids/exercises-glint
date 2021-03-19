@@ -6,7 +6,7 @@
 }
 
 .change-theme{
-  position: absolute;
+  position: fixed;
   right: 5rem;
   top: 1.5rem;
   color: var(--icon-dark-mode);
