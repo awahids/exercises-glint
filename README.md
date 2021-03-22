@@ -1,1 +1,16 @@
-# exercises-glint
+# exercises-glints
+ini ada adalah tugas `web sederhana` [amman](https://www.amnt.co.id/) X [glints](https://glints.com/id) 
+web ini merupakan web sederhana untuk menampilkan `portofolio` yang dibangun menggunakan [HTML 5](https://html.com/), [CSS](https://en.wikipedia.org/wiki/CSS) dan library [BOOTSTRAP 4.6](https://getbootstrap.com/)
+
+untuk __demo__ *landing page* bisa [KLIK DI SINI](https://awahids.github.io/exercises-glint/)
+
+- [x] A header
+- [x] A main section (ex: self introduction)
+- [x] 1 extra sections (ex: education and work experience)
+- [x] A contact form with HTML tag ```html <input>``` and ```html <textarea> ``` must be used
+- [x] A footer
+- [x] An animation
+- [x] Your website needs to be responsive for at least a tablet / mobile or you can do both.
+- [x] Use javascript to create Dark and Light More
+
+- [x] `Calculator`
