@@ -7,7 +7,7 @@ untuk __demo__ *landing page* bisa [KLIK DI SINI](https://awahids.github.io/exer
 - [x] A header
 - [x] A main section (ex: self introduction)
 - [x] 1 extra sections (ex: education and work experience)
-- [x] A contact form with HTML tag ```html <input>``` and ```html <textarea> ``` must be used
+- [x] A contact form with HTML tag <input> and <textarea> must be used
 - [x] A footer
 - [x] An animation
 - [x] Your website needs to be responsive for at least a tablet / mobile or you can do both.
