@@ -1,8 +1,8 @@
 # exercises-glints
 
-[![github](https://img.shields.io/github/followers/awahids?style=social)](https://github.com/awahids/)
-[![star](https://img.shields.io/github/stars/awahids/exercises-glint?style=social)]()
-[![ww](https://img.shields.io/github/watchers/awahids/exercises-glint?style=social)]()
+[![github](https://img.shields.io/github/followers/awahids?style=social)](https://github.com/awahids?tab=followers)
+[![star](https://img.shields.io/github/stars/awahids/exercises-glint?style=social)](https://github.com/awahids/exercises-glint/stargazers)
+[![ww](https://img.shields.io/github/watchers/awahids/exercises-glint?style=social)](https://github.com/awahids/exercises-glint/watchers)
 
 [![commit](https://img.shields.io/github/last-commit/awahids/exercises-glint?style=plastic)]()
 [![line](https://img.shields.io/tokei/lines/github/awahids/exercises-glint)]()
