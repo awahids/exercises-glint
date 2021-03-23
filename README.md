@@ -1,6 +1,7 @@
 # exercises-glints
 [![star](https://img.shields.io/github/stars/awahids/exercises-glint?style=social)]()
 [![ww](https://img.shields.io/github/watchers/awahids/exercises-glint?style=social)]()
+
 [![commit](https://img.shields.io/github/last-commit/awahids/exercises-glint?style=plastic)]()
 [![line](https://img.shields.io/tokei/lines/github/awahids/exercises-glint)]()
 [![languages](https://img.shields.io/github/languages/count/awahids/exercises-glint?color=red)]()
