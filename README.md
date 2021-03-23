@@ -13,6 +13,6 @@ ini adalah tugas `web sederhana` [amman](https://www.amnt.co.id/) X [glints](htt
 - [x] Your website needs to be responsive for at least a tablet / mobile or you can do both.
 - [x] Use javascript to create Dark and Light More :high_brightness:
 
-- [x] `Calculator`
+- [x] [`Calculator`](https://github.com/awahids/exercises-glint/tree/master/calculator/ "code of calculator")
 
 :shipit:
