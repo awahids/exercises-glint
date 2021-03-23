@@ -1,4 +1,5 @@
 # exercises-glints
+[![commit]https://img.shields.io/github/last-commit/awahids/exercises-glint?style=for-the-badge]
 ini adalah tugas `web sederhana` [amman](https://www.amnt.co.id/) X [glints](https://glints.com/id) untuk menampilkan `portofolio`, yang dibangun menggunakan [HTML 5](https://html.com/), [CSS](https://en.wikipedia.org/wiki/CSS) dan library [BOOTSTRAP 4.6](https://getbootstrap.com/)
 
 > untuk __demo__ *landing page* bisa [KLIK DI SINI](https://awahids.github.io/exercises-glint/ "klik aja mbak angel hehe")
@@ -16,3 +17,5 @@ ini adalah tugas `web sederhana` [amman](https://www.amnt.co.id/) X [glints](htt
 - [x] [`Calculator`](https://github.com/awahids/exercises-glint/tree/master/calculator/ "code of calculator")
 
 :shipit:
+[![github](https://img.shields.io/github/followers/awahids?style=social)](https://github.com/awahids/)
+[![star](https://img.shields.io/github/stars/awahids/exercises-glint?style=social)]
